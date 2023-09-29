@@ -1,0 +1,37 @@
+* {
+    color: #C29B47;
+}
+.root {
+    background-color: #F6D285;
+    padding: 50px;
+    margin: 70px 400px;
+    border-radius: 10px;
+}
+input {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 30px;
+    outline: none;
+    border-width: 0;
+    padding: 0 2.5%;
+    border-radius: 5px;
+    background: #E4F594;
+    color: #79B132;
+}
+input::placeholder {
+    color: #79B132;
+}
+button {
+    border-width: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #42E6E2;
+    color: white;
+}
+h1, p, h3 {
+    text-align: center;
+}
+#containImg {
+    display: flex;
+    justify-content: center;
+}
